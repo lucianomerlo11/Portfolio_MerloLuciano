@@ -1,0 +1,47 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.img_banner{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+h1, h2, h3{
+    text-align: center;
+}
+
+.presentacion{
+    /* text-align: center; */
+    font-size: 1.3rem;
+}
+
+ul li{
+    list-style: none;
+    text-align:justify;
+}
+
+.img_conocimiento{
+    width: 64px;
+    height: 64px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conocimientos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conocimientos img:hover{
+    width: 100px;
+    height: 100px;
+}
